@@ -19,7 +19,7 @@ from Facultad.views import *
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
-    url(r'^lista/', ListaFacultad.as_view(),name='lista'),
+    url(r'^$', ListaFacultad.as_view(),name='lista'),
     url(r'^detalle/(?P<pk>.*)$',DetalleFacultad.as_view(), name='Detalle'),
     url(r'^crear/', CrearFacultad.as_view(), name='Crear'),
     url(r'^eliminar/(?P<pk>.*)$', EliminarFacultad.as_view(), name='eliminar'),

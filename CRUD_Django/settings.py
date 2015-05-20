@@ -29,7 +29,7 @@ ALLOWED_HOSTS = []
 
 
 # Application definition
-CRISPY_TEMPLATE_PACK = 'bootstrap3'
+
 INSTALLED_APPS = (
     'django_admin_bootstrapped.bootstrap3',
     'django_admin_bootstrapped',
@@ -40,7 +40,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'Facultad',
-    'crispy_forms',
+
 )
 
 MIDDLEWARE_CLASSES = (
